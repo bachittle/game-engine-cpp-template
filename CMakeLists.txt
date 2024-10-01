@@ -18,4 +18,4 @@ add_subdirectory(external/imgui)
 add_subdirectory(external/stb)
 
 add_executable(example example.cpp)
-target_link_libraries(example glfw)
+target_link_libraries(example glfw imgui)
